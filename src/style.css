@@ -1,0 +1,27 @@
+.highlight1 {
+    background-color: #1D32B0; 
+    color: #96FFA5;
+}
+
+.highlight2 {
+    background-color: #4400A3; 
+    color: #FFC18D; 
+}
+
+.goods-gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-items: center;
+    margin-top: 16px;
+}
+
+.goods-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+    width: 180px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
